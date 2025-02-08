@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por decir que sí 💗</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 20px;
+            position: relative;
+
+            body {
+    overflow-x: auto; /* Permite desplazamiento horizontal */
+    white-space: nowrap; /* Evita que los elementos salten de línea */
+    @media screen and (max-width: 768px) {
+        
+    body {
+        transform: scale(0.8); /* Reduce el tamaño de todo */
+        transform-origin: top left;
+        width: 125%; /* Evita que el contenido se corte */
+    }
+}
+
+}
+        }
+        @keyframes floatHeart {
+            0% { transform: translateY(0) scale(1); opacity: 1; }
+            50% { transform: translateY(-20px) scale(1.1); opacity: 0.8; }
+            100% { transform: translateY(0) scale(1); opacity: 1; }
+        }
+        .heart {
+            position: absolute;
+            font-size: 30px;
+            color: red;
+            animation: floatHeart 2s infinite ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        h2, .message p {
+            color: white;
+            font-size: 28px;
+            margin-bottom: 10px;
+            animation: bounce 1s infinite alternate ease-in-out;
+        }
+        .no {
+    position: relative; /* En móviles, evita que se salga */
+    max-width: 90%;
+}
+        .message {
+            font-size: 20px;
+            color: #ffffff;
+            background: rgba(255, 64, 129, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            margin-top: 15px;
+            max-width: 600px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            max-width: 100%;
+           height: auto;
+        }
+
+        .images img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+        }
+    
+
+@keyframes floatHearts {
+    0% { transform: translateY(100vh) scale(0.5); opacity: 1; }
+    100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+}
+        .heart-float {
+            position: absolute;
+            color: red;
+            font-size: 25px;
+            animation: floatHearts 5s infinite linear;
+        }
+        .container {
+            display: flex;
+    flex-wrap: nowrap; /* Mantiene los elementos en una sola línea */
+    overflow-x: auto; /* Permite hacer scroll en móviles */
+    max-width: 100vw; /* Evita que los elementos se salgan del viewport */
+        }
+
+        .image {
+    max-width: 100%;
+    height: auto;
+}
+        .video {
+            width: 180px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .canva-template {
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .canva-template img {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+      /* Animaciones */
+         @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .tulips {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .tulips img {
+            width: 80px;
+            height: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background: #ff4081;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background: #e6005c;
+        }
+    </style>
+</head>
+<body>
+    <h2>¡GRACIAS POR DECIR QUE SÍ! 💗</h2>
+
+    <div class="images">
+
+        <img src="images/imagen16.jpg.jpeg" alt="Imagen 1">
+        <img src="images/imagen19.jpg.jpeg" alt="Imagen 2">
+        <img src="images/imagen3.jpg.jpeg" alt="Imagen 3">
+        <img src="images/imagen10.jpg.jpeg" alt="Imagen 4">
+        <img src="images/imagen9.jpg.jpeg" alt="Imagen 5">
+        <img src="images/imagen14.jpg.jpeg" alt="Imagen 7">
+        <img src="images/imagen22.jpg.jpeg" alt="Imagen 8">
+        <img src="images/imagen18.jpg.jpeg" alt="Imagen 9">
+    </div>
+
+    <div class="container">
+        <video class="video" controls>
+            <source src="Video/video1.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <video class="video" controls>
+            <source src="Video/video2.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <video class="video" controls>
+            <source src="Video/video3.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <video class="video" controls>
+            <source src="Video/video4.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <video class="video" controls>
+            <source src="Video/video5.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <video class="video" controls>
+            <source src="Video/video8.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </div>
+
+    <div class="canva-template">
+        <div class="tulips">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+            <img src="images/tulipan1.jpg" alt="Tulipán">
+
+
+        </div>
+        <img src="images/plantilla.jpg.jpg" alt="Plantilla Especial">
+        
+        <img src="images/plantilla2.jpg.png" alt="Plantilla Especial">
+        <div class="tulips">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+            <img src="images/tulipan.jpg" alt="Tulipán">
+
+        </div>
+    </div>
+    
+    <div class="message">
+        <p>Gracias por llegar a mi vida. ¡TE QUIERO UN MONTÓN! 💗</p>
+    </div>
+
+    <script>
+        function createHearts() {
+            for (let i = 0; i < 15; i++) {
+                let heart = document.createElement("div");
+                heart.innerHTML = "💗";
+                heart.classList.add("heart-float");
+                document.body.appendChild(heart);
+                heart.style.left = Math.random() * 100 + "vw";
+                heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
+                heart.style.fontSize = (Math.random() * 20 + 20) + "px";
+            }
+        }
+        createHearts();
+</script>
+
+<script>
+    function createHeart() {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.innerHTML = '💖';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.top = Math.random() * 100 + 'vh';
+        heart.style.animationDuration = (Math.random() * 2 + 3) + 's';
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 500);
+</script>
+
+
+<!-- Botón para controlar el audio -->
+<button id="playAudio" class="back-button">Reproducir Música 🎶</button>
+<audio id="backgroundMusic" loop>
+    <source src="audio/music1.mp3.mp3" type="audio/mp3">
+    Tu navegador no soporta el audio.
+</audio>
+
+<script>
+    const audio = document.getElementById("backgroundMusic");
+    const button = document.getElementById("playAudio");
+
+    button.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            button.textContent = "Pausar Música ⏸️";
+        } else {
+            audio.pause();
+            button.textContent = "Reproducir Música 🎶";
+        }
+    });
+</script>
+
+
+    <button class="back-button" onclick="window.history.back()">Volver</button>
+</body>
+</html>
